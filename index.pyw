@@ -9,17 +9,17 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Constants
-MAIN_FOLDER = "C:\\Users\\Jenna Grima\\Downloads\\" # The folder you want this program to check
-SORTING_FOLDER = "C:\\Users\\Jenna Grima\\" # The folder where you want files to be sorted in
+MAIN_FOLDER = "" # The folder you want this program to check
+SORTING_FOLDER = "" # The folder where you want files to be sorted in
 
 # This is relative to your sorting location. If you want images to go to your sorting folder's Pictures folder, give "Pictures" to an "image" key
 CATEGORY_LOCATIONS = {
-	"image": "Pictures",
-	"text": "Documents",
-	"video": "Videos",
-	"audio": "Music",
-	"application": "Application Download",
-	"folder": "Folders Download"
+	"image": "",
+	"text": "",
+	"video": "",
+	"audio": "",
+	"application": "",
+	"folder": ""
 }
 
 # Sorting requires that folders inside of the sorting folder be named accoridng to their category
