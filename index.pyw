@@ -12,7 +12,7 @@ from watchdog.events import FileSystemEventHandler
 MAIN_FOLDER = "C:\\Users\\Jenna Grima\\Downloads\\" # The folder you want this program to check
 SORTING_FOLDER = "C:\\Users\\Jenna Grima\\" # The folder where you want files to be sorted in
 
-# This is relative to your sorting location
+# This is relative to your sorting location. If you want images to go to your sorting folder's Pictures folder, give "Pictures" to an "image" key
 CATEGORY_LOCATIONS = {
 	"image": "Pictures",
 	"text": "Documents",
